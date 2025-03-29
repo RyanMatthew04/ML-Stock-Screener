@@ -1,9 +1,3 @@
----
-sdk: streamlit
-colorFrom: red
-colorTo: green
----
-
 # Multimodal Stock Reversal Prediction System
 
 This repository contains a multimodal stock reversal prediction system for Nifty 50 stocks. The system ensembles three distinct predictive models—a Random Forest classifier, a Support Vector Classifier, and FinBERT's bullish/bearish sentiment probabilities—using soft voting via simple averaging. It dynamically fetches and processes the latest data, providing actionable trading signals along with confidence scores.
